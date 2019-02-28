@@ -4,6 +4,7 @@ node ('master'){
   }
   stage('list'){
    sh 'ls'; 
+    
     sh 'javac hello.java'
     sh 'java hello'
   }
